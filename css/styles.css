@@ -1,0 +1,22 @@
+#headcard {margin:40px;}
+#headerh5 {font-family: 'Satisfy', cursive; font-size: 5em;}
+#headerp  {font-family: 'Patrick Hand', cursive;}
+
+#wholenav {margin:40px;}
+.bg-dark{background-color:rgba(32, 201, 151, 0.8) !important;}
+.btn-lg {color:#20c997;}
+
+.carousel {margin:40px;}
+#textcard {margin:40px;}
+
+.card-header{background-color:rgba(32, 201, 151, 0.8);}
+#bodycardh5 {font-family: 'Fredoka One', cursive; color:white;}
+
+.row      {margin:40px;}
+#card1 {padding-left:0;}
+#card2 {padding-righT:0;}
+/* 990px
+	#headerh5 {font-family: 'Satisfy', cursive; font-size: 5em;}
+	
+	
+*/
