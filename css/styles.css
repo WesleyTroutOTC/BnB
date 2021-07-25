@@ -1,22 +1,36 @@
-#headcard {margin:40px;}
-#headerh5 {font-family: 'Satisfy', cursive; font-size: 5em;}
-#headerp  {font-family: 'Patrick Hand', cursive;}
+/*
+Wesley Trout
+July 2021
 
-#wholenav {margin:40px;}
+styles.css
+*/
+
+#headerh5        {font-family: 'Satisfy', cursive;      font-size: 5em; color:white;}
+#headerp, p, li, .col-form-label    {font-family: 'Patrick Hand', cursive;}
+.card-header, .accordion-button, .navbar-toggler     {font-family: 'Fredoka One', cursive;                  color:white; font-variant:small-caps; }
+.card-title      {font-family: 'Courgette', cursive;                    color:#5c5c5c}
+.caroh5          {font-family: 'Satisfy', cursive;      font-size: 3em; color:white;}
+p {font-size:1.2em;}
+.accordion-button {font-size:0.7em;}
 .bg-dark{background-color:rgba(32, 201, 151, 0.8) !important;}
 .btn-lg {color:#20c997;}
-
-.carousel {margin:40px;}
-#textcard {margin:40px;}
-
-.card-header{background-color:rgba(32, 201, 151, 0.8);}
-#bodycardh5 {font-family: 'Fredoka One', cursive; color:white;}
-
-.row      {margin:40px;}
+.card-header, .accordion-button {background-color:rgba(32, 201, 151, 0.8);}
+.accordion-body {overflow-y: scroll; height:200px;}
 #card1 {padding-left:0;}
 #card2 {padding-righT:0;}
-/* 990px
-	#headerh5 {font-family: 'Satisfy', cursive; font-size: 5em;}
-	
-	
-*/
+#footertext {padding:5px;}
+#footer {text-align:center; margin: 0px 40px; background-color:rgba(32, 201, 151, 0.8); font-family: 'Satisfy', cursive;  font-size: 1.4em; color:white;}
+#canvasfor-googlemap {padding:20px;}
+.accordion, .row, #headcard, #wholenav, .carousel, #textcard {margin:20px 40px 20px 40px;}
+#topcardright {margin-bottom:20px;}
+#cardright2   {max-height: 350px;}
+#bothcolumns  {margin-left: 40px; margin-right: 40px;}
+#leftcol, #cont3     {padding-left:0;}
+#colright, #cont1, #cont2, #cont3    {padding-right:0;}
+#cardleft     {margin-top:20px;}
+#cardp1 {padding:10px;}
+.btn-sm, .btn-sm:hover {background-color: rgba(32, 201, 151, 0.8); border-color: rgba(32, 201, 151, 0.8); margin-left:30px; margin-bottom:30px;}
+
+@media screen and (max-width: 1190px){#headerh5 {font-family: 'Satisfy', cursive; font-size: 4em;}}
+@media screen and (max-width: 990px) {#headerh5 {font-family: 'Satisfy', cursive; font-size: 3em;}}
+@media screen and (max-width: 750px) {#headerh5 {font-family: 'Satisfy', cursive; font-size: 2em;}}
